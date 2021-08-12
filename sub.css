@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #514134;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  
+  .container {
+    position: relative;
+    width: 1280px;
+    margin: 0 auto;
+  }
+  
+  header {
+    width: 100%;
+    min-width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.24);
+    margin-bottom: 3px;
+  }
+  header h1 {
+    position: absolute;
+    left: 30px;
+  }
+  
+  header nav {
+    position: absolute;
+    left: 280px;
+    top: 50px;
+    font-size: 15px;
+  }
+  
+  header nav > ul > li {
+    float: left;
+    width: 143px;
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .join {
+    left: 1060px;
+  }
+  
+  .join > ul > li {
+    width: 44px;
+  }
+  
+  span {
+    color: #707070;
+  }
+  
+  .join > ul > li > a {
+    font-weight: normal;
+    font-size: 13px;
+  }
+  
+  header nav > ul > li a {
+    color: #707070;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  header nav > ul > li > a:hover {
+    color: black;
+  }
+  
+  header nav .depth2 {
+    margin-top: 20px;
+    display: none;
+  }
+
+  header nav .depth2 > li > a {
+    display: block;
+    padding: 10px;
+    background-color: white;
+  }
+  header nav .depth2 > li > a:hover {
+    background: #707070;
+    color: #fff;
+  }
+
+.subtitle {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 52px;
+}
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 250px;
+  border-bottom: 4px solid #514134;
+  margin: 0 auto;
+  margin-top: 21px;
+  margin-bottom: 100px;
+}
+
+
+footer {
+    position: relative;
+    font-size: 13px;
+    font-weight: bold;
+    background: #0C0C0C;
+    color: #AAA9A9;
+    padding-top: 1px;
+    min-width: 1280px;
+    width: 100%;
+    height: 370px;
+    clear: both;
+  }
+  
+  .footerMenu {
+    margin-top: 36px;
+    border-bottom: 1px solid #707070;
+  }
+  .footerMenu > li {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+  
+  .footerMenu > li > a{
+    color: #AAA9A9;
+  }
+  
+  .footerLogo {
+    margin-top: 24px;
+    margin-bottom: 23px;
+  }
+  
+  footer .footerMenu span,  
+  footer .address span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 10px;
+    display: inline-block;
+    transform: translateY(-2px); 
+  }
+  
+  .info {
+    margin-bottom: 2em;
+  }
+  .info > li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+  }
+  .info > li:first-child {
+    text-align: right;
+  }
+  .info > li:last-child {
+    text-align: left;
+    margin-right: 0;
+  }
+  
+  footer .address {
+    margin-bottom: 5px;
+  }
+  
+  .logo {
+    width: 77px;
+    margin: 15px;
+  }
+  
+  footer > .container {
+    text-align: center;
+  }
