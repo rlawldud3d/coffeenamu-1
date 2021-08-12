@@ -110,6 +110,17 @@ header nav .depth2 > li > a:hover {
   width: 100%;
 }
 
+.galleryTwo {
+  width: 1280px;
+  height: 491px;
+  position: relative;
+}
+
+.galleryTwo > img {
+  position: absolute;
+  width: 100%;
+}
+
 .indicator {
   position: absolute;
   width: 50px;
