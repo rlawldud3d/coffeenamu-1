@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  position: relative;
+  width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  min-width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 999;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.24);
+  margin-bottom: 3px;
+}
+header h1 {
+  position: absolute;
+  left: 30px;
+}
+
+header nav {
+  position: absolute;
+  left: 333px;
+  top: 50px;
+  font-size: 15px;
+}
+
+header nav > ul > li {
+  float: left;
+  width: 143px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.join {
+  left: 1060px;
+}
+
+.join > ul > li {
+  width: 44px;
+}
+
+span {
+  color: #707070;
+}
+
+.join > ul > li > a {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+header nav > ul > li a {
+  color: #707070;
+  font-size: 16px;
+  font-weight: bold;
+}
+header nav > ul > li > a:hover {
+  color: black;
+}
+
+header nav .depth2 {
+  margin-top: 36px;
+  display: none;
+}
+
+header nav .depth2 > li > a {
+  display: block;
+  padding: 10px;
+}
+header nav .depth2 > li > a:hover {
+  background: #444;
+  color: #fff;
+}
+
+
+#mainVisual .container {
+  position: relative;
+  width: 1280px;
+  height: 600px;
+}
+
+.gallery{
+  width: 1280px;
+  /* height: 600px; */
+  position: relative;
+}
+
+.gallery > img {
+  position: absolute;
+  width: 100%;
+}
+
+.indicator {
+  position: absolute;
+  width: 50px;
+  height: 15px;
+  display: flex;
+  bottom: 1px;
+  left: 628px;
+}
+
+.indicator > li {
+  flex: 1;
+  background: #D7D4CF;
+  border-radius: 30px 30px 30px 30px;
+  margin-right: 10px;
+}  
+
+.indicator > li.active {
+  background: #514134;
+}
+
+.indicator > li > a {
+  display: block;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+h3 {
+  position: absolute;
+  width: 224px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #5A4534;
+  left: 528px;
+  margin-top: 95px;
+  text-align: center;
+}
+
+#main {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+#main .container {
+  display: flex;
+  justify-content: center;
+}
+
+#main .col {
+  width: 300px;
+  height: 326px;
+  margin-right: 20px;
+  background: white;
+  margin-top: 241px;
+  text-align: center;
+}
+
+#main .col:last-child {
+  margin-right: 0;
+}
+
+#main .col .text p{
+  font-size: 16px;
+  font-weight: bold;
+  color: #5A4534;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#banner2 .container > img {
+  position: absolute;
+}
+
+.bannerLeft {
+  float: left;
+  height: 400px;
+}
+.bannerRight {
+  float: right;
+  height: 400px;
+}
+/* 
+.btn {
+  position: absolute;
+  width: 221px;
+  height: 49px;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px;
+  left: 352px;
+  top: 2000px;
+} */
+
+footer {
+  position: relative;
+  font-size: 13px;
+  font-weight: bold;
+  background: #0C0C0C;
+  color: #AAA9A9;
+  padding-top: 1px;
+  min-width: 1280px;
+  width: 100%;
+  height: 370px;
+  clear: both;
+}
+
+.footerMenu {
+  margin-top: 36px;
+  border-bottom: 1px solid #707070;
+}
+.footerMenu > li {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.footerMenu > li > a{
+  color: #AAA9A9;
+}
+
+.footerLogo {
+  margin-top: 24px;
+  margin-bottom: 23px;
+}
+
+footer .footerMenu span,  
+footer .address span {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+  display: inline-block;
+  transform: translateY(-2px); 
+}
+
+.info {
+  margin-bottom: 2em;
+}
+.info > li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+.info > li:first-child {
+  text-align: right;
+}
+.info > li:last-child {
+  text-align: left;
+  margin-right: 0;
+}
+
+footer .address {
+  margin-bottom: 5px;
+}
+
+.logo {
+  width: 77px;
+  margin: 15px;
+}
+
+footer > .container {
+  text-align: center;
+}
+/* 
+h4 {
+  position: absolute;
+  font-family: 'Cooper Black';
+  color: #522e1e;
+  font-size: 50px;
+  left: 80px;
+  top: 180px;
+}
+
+h5 {
+  position: absolute;
+  font-family: 'Cooper Black';
+  color: #522e1e;  
+  font-size: 40px;
+  left: 300px;
+  top: 250px;
+} */
