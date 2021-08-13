@@ -1,0 +1,60 @@
+  .container .btn {
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .container .btn a {
+    display: inline-block;
+    color: #514134;
+    border: 1px solid #514134;
+    font-size: 20;
+    font-weight: normal;
+    width: 176px;
+    height: 40px;
+    padding: 8px;
+    text-align: center;
+    margin-right: 66px;
+  }
+  .container .btn a:first-child {
+    color: white;
+    background-color: #514134;
+  }
+  .container .btn a:last-child {
+    margin-right: 0;
+  }
+
+
+  
+#main {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+#main .container {
+  display: flex;
+  justify-content: center;
+}
+
+#main .col {
+  width: 300px;
+  height: 400px;
+  margin-right: 10px;
+  background: #F5F5F5;
+  text-align: center;
+  margin-bottom: 10px;
+}
+#main .empty {
+  background: white;
+  margin-bottom: 100px;
+}
+
+#main .col:last-child {
+  margin-right: 0;
+}
+
+#main .col .text p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #272525;
+  text-align: center;
+  margin-top: 15px;
+}
