@@ -161,7 +161,7 @@ h3 {
 
 #main {
   padding-top: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
 }
 
 #main .container {
@@ -174,7 +174,7 @@ h3 {
   height: 326px;
   margin-right: 20px;
   background: white;
-  margin-top: 241px;
+  margin-top: 200px;
   text-align: center;
 }
 
@@ -202,6 +202,10 @@ h3 {
   float: right;
   height: 400px;
 }
+#banner2 {
+  margin-bottom: 500px;
+}
+
 /* 
 .btn {
   position: absolute;
