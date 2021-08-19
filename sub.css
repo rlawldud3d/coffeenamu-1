@@ -84,15 +84,21 @@
     display: none;
   }
 
+
   header nav .depth2 > li > a {
     display: block;
     padding: 10px;
     background-color: white;
+    font-size: 14px;
+    font-weight: normal;
   }
   header nav .depth2 > li > a:hover {
     background: #707070;
     color: #fff;
+    font-size: 14px;
+    font-weight: normal;
   }
+  
 
 .subtitle {
     font-size: 40px;
